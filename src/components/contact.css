@@ -1,0 +1,187 @@
+.contact-container {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: -12px 3px -3px white;
+    border: 3px solid rgb(195, 185, 185);
+    margin: 50px auto; /* Center the container */
+    flex-wrap: wrap;
+    max-width: 1200px; /* Restrict the maximum width */
+}
+
+.profile-image {
+    box-shadow: 3px 2px 5px white;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #000000;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-section h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.email-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-section span {
+    font-size: 2rem;
+    margin-top: -10px;
+    color: white;
+}
+
+.email-section a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email-section a:hover {
+    text-decoration: underline;
+}
+
+.right-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.right-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Elements */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid black;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+        margin: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .left-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .left-section p {
+        font-size: 0.9rem;
+    }
+
+    .email-section span {
+        font-size: 1.5rem;
+    }
+
+    .right-section h2 {
+        font-size: 1.3rem;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .left-section, .right-section {
+        padding: 15px;
+    }
+
+    .left-section h1 {
+        font-size: 1.2rem;
+    }
+
+    .email-section span {
+        font-size: 1.2rem;
+    }
+
+    .right-section h2 {
+        font-size: 1.2rem;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.8rem;
+    }
+
+    form button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
