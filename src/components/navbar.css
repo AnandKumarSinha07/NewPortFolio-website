@@ -53,6 +53,7 @@
     text-decoration:underline rgb(135, 34, 34);
     border-radius: 2px;
     transition:transform 3s ease;
+    padding: 4px;
 }
 
 
