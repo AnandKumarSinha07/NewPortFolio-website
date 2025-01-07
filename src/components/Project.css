@@ -11,11 +11,11 @@
     /* box-shadow: 3px 8px 2px white; */
     /* border:3px solid rgb(195, 185, 185); */
 }
-.project-bar{
+/* .project-bar{
     text-align: center;
     margin-top:30px;
 
-}
+} */
 .card:hover{
     transform: scale(1.01);
     
@@ -76,4 +76,17 @@
     color: #000000;
     border:2px solid black
 }
+
+/* @media (max-width: 768px) {
+    .project-bar {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-bar {
+        text-align: center;
+    }
+    
+} */
 

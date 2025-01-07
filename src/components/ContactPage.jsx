@@ -1,6 +1,7 @@
 import React  from 'react'
 import { CiMail } from "react-icons/ci";
 import resume from '../assest/resume.jpg'
+import anand from '../assest/anand.jpg'
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -30,7 +31,7 @@ const ContactPage = () => {
                   <p>Mail me at:<a href='mailto:anandkr7808@gmail.com'>anandkr7808@gmail.com</a></p>
                </div>
 
-               <img src={resume} alt='profile' width={223} className='profile-image'/>
+               <img src={anand} alt='profile' width={213} className='profile-image'/>
            </div>
     
            <div className='right-section'>

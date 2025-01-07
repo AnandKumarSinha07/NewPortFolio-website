@@ -56,6 +56,9 @@
     .hero .content h1{
         font-size: 3rem;
     }
+    .mask{
+        margin-top:-150px;
+    }
     
     .hero .content p{
         font-size:1.4rem;

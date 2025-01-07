@@ -2,7 +2,20 @@ import React from "react";
 import "./heroImage.css";
 import Introimage from "../assest/intro-bg.jpg";
 import { Link } from "react-router-dom";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap"
 function HeroImg() {
+
+ 
+  useGSAP(()=>{
+    gsap.from(".hero",{
+       x:-5000,
+       opacity:0,
+       duration:1.2,
+       delay:1.2,
+       stagger:0.3,
+    })
+  })
   return (
     <div className="hero">
 

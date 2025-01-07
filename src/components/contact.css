@@ -12,7 +12,7 @@
 }
 
 .profile-image {
-    box-shadow: 3px 2px 5px white;
+   border-radius: 2px;
 }
 
 .left-section {
@@ -93,6 +93,7 @@ form textarea:focus {
 
 form textarea {
     resize: none;
+    margin-bottom: 20px;
 }
 
 form button {
@@ -110,6 +111,7 @@ form button:hover {
     background-color: #fff;
     color: #000000;
     border: 2px solid black;
+    font-weight: bolder;
 }
 
 /* Media Queries for Mobile Responsiveness */
@@ -157,6 +159,10 @@ form button:hover {
     .contact-container {
         padding: 10px;
         gap: 15px;
+    }
+
+    .profile-image {
+        width: 270px;
     }
 
     .left-section, .right-section {

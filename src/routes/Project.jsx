@@ -9,7 +9,7 @@ function Project() {
   return (
     <div>
       <Navbar />
-      <h1 className='project-bar'>PROJECT</h1>
+    
       <div className="project-container">
         {ProjectData.map((data, index) => (
           <ProjectCard key={index} data={data} />

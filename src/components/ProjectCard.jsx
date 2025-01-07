@@ -1,7 +1,16 @@
 import React  from 'react';
 import './Project.css';
+import { useGSAP } from '@gsap/react';
+import gsap from "gsap"
 
 const ProjectCard = ({ data }) => {
+
+  useGSAP(()=>{
+    gsap.from(".project-container",{
+     
+
+    })
+  })
   const { name, img, description, url } = data;
 
   const handleClick = () => {
